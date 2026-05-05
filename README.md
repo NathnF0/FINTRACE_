@@ -1,82 +1,58 @@
-# ⚡ FINTRACE v1.1.0
+# ⚡ FINTRACE_ // Market Telemetry Engine
 
-**FINTRACE** é uma engine tática de telemetria financeira desenvolvida em Python. O sistema opera como um monitor de ativos de alta fidelidade via CLI, entregando dados em tempo real sobre Criptoativos, Moedas e Commodities com arquitetura de baixo overhead.
+O **FINTRACE_** é uma aplicação web tática de alta performance para monitoramento de ativos financeiros em tempo real. Desenvolvido em Python, o sistema consome telemetria de mercados globais (Moedas e Metais) e os apresenta em uma interface minimalista otimizada para visualização contínua.
 
----
+## 🚀 Evolução do Projeto
+O projeto evoluiu de um script de automação via terminal para uma **Web Engine v2.0** completa, integrando backend robusto e uma interface de usuário responsiva.
 
-## 🛠️ Arquitetura do Sistema
-O núcleo do **FINTRACE** foi projetado para ser minimalista e resiliente. Utilizando a `AwesomeAPI`, a engine processa e renderiza variações de mercado com uma interface otimizada para terminais modernos.
+## 🛠️ Tech Stack
+*   **Engine:** Python 3.12+
+*   **Web Framework:** Flask (WSGI Server)
+*   **API Data Source:** AwesomeAPI (Real-time Financial Telemetry)
+*   **Frontend:** Custom CSS3 com foco em UI/UX Minimalista e Dark Mode.
 
-### 🌑 Ativos Monitorados:
-- **Cripto**: Bitcoin (BTC) & Ethereum (ETH).
-- **Commodities**: Ouro (XAU).
-- **Câmbio**: Dólar (USD) & Euro (EUR).
+## 💎 Funcionalidades Master
+*   **Auto-Sync:** Refresh automático via metadados a cada 30 segundos.
+*   **Live Indicator:** Badge de status "SYSTEM ACTIVE" com animação de pulso via CSS Keyframes.
+*   **Dynamic Data Stream:** Conversão dinâmica de JSON para estruturas de dados Python injetadas via Jinja2.
+*   **Responsividade:** Interface adaptada para diferentes formatos de visualização.
 
----
+## 📦 Como Rodar o Projeto
 
-## 🖥️ Interface Visual
-O projeto utiliza uma paleta de cores tática (Roxo Neon e High-Contrast) para garantir legibilidade instantânea de variações de preço.
-
-```text
-/// FINTRACE_ v1.1.0
-————————————————————————————————————————————————————————————
-STATUS: ACTIVE  |  BASE: BRL  |  TIME: 14:20:05
-————————————————————————————————————————————————————————————
-
-   IDENTIFIER      │      VALUE (BRL)      │      CHANGE
-   ————————————————│———————————————————————│————————————
-   BITCOIN         │             390,450   │    +1.25%
-   ETHEREUM        │              12,450   │    -0.85%
-   OURO (g)        │              425.10   │    +0.12%
-```
-```text
-🚀 Deployment Rápido
-Pré-requisitos
-Python 3.10+
-
-Pip (Gerenciador de pacotes)
-
-Instalação
-Clone o repositório:
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/SEU_USUARIO/FINTRACE.git](https://github.com/SEU_USUARIO/FINTRACE.git)
+   
+Crie e ative o ambiente virtual:
 
 Bash
-git clone [https://github.com/NathnF0/FINTRACE.git](https://github.com/NathnF0/FINTRACE.git)
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
 Instale as dependências:
 
 Bash
 pip install -r requirements.txt
-Execute o monitor:
 
-Bash
-python main.py
-```
 
-⚙️ Tecnologias
-Linguagem: Python 3
+4. **Inicie a Engine:**
+   ```bash
+   python app.py
+   
+Acesse em: http://127.0.0.1:5000
 
-Data Source: AwesomeAPI
+## 👨‍💻 Developer Core
 
-Styling: ANSI Escape Codes (High Fidelity)
-
-Protocol: HTTP/1.1 REST
-
-🛰️ Session Logs
-O sistema conta com um módulo de auditoria que registra o tempo de atividade e o status de sincronização dos nós ao encerrar cada sessão, garantindo integridade nos dados monitorados.
-
-## 👤 Developer Context
-
-**Nathn** — Backend Architect & Systems Integrator.  
-Focado no desenvolvimento de soluções de alta performance, automação de fluxos de dados e ferramentas CLI de missão crítica.
-
-### 🛠️ Tech Stack Core:
-- **Languages:** Python (Advanced), Shell Scripting.
-- **Specialties:** API Integration, Real-time Data Processing, CLI UX.
-- **Architectures:** Modular Systems, Terminal-based Interfaces.
-
-### 📡 Connectivity:
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NathnF0)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/Status-Open%20Source-92e000?style=for-the-badge)](https://github.com/NathnF0/FINTRACE)
+### **NATHNF** // Systems Architect
+Focado no desenvolvimento de engines de telemetria e interfaces de alta fidelidade. A busca constante pela precisão técnica define cada linha de código do **FINTRACE_**.
 
 ---
-> "Simplicity is the soul of efficiency."
+
+### ⚡ Technical Profile
+*   **Specialization:** Python Backend & Web Systems Integration.
+*   **Philosophy:** Clean Code, Scalability, and Visual Authority.
+*   **Current Stack:** Flask, REST APIs, and Advanced UI/UX Design.
+
+---
+
+> *"Data is noise. Intelligence is visual."*

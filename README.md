@@ -21,7 +21,7 @@ O projeto evoluiu de um script de automação via terminal para uma **Web Engine
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/SEU_USUARIO/FINTRACE.git](https://github.com/SEU_USUARIO/FINTRACE.git)
+   git clone [https://github.com/NathnF0/FINTRACE_.git](https://github.com/NathnF0/FINTRACE_.git)
    
 Crie e ative o ambiente virtual:
 
